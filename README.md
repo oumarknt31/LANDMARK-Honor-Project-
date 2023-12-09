@@ -35,7 +35,10 @@ LANDMARK UML CLASSES
 
 # CHALLENGES
 My biggest challenge was mastering Qt and its features from scratch. Also, converting existing C++ code into a Qt-compatible format was a complex task. However, by overcoming these obstacles, I gained valuable experience and developed a comprehensive and engaging platform.
-# ACCOMPLISHMENTS
+
+In addition to tackling the complexities of learning Qt and converting C++ code, I encountered the challenge of selecting the most suitable algorithm to power the app's core functionality. Deciding on the optimal approach to personalize learning experiences, adjust quiz difficulty. Picking the right algorithm was tough, but it turned out to be quite rewarding. I had to think hard, compare different options, and weigh their pros and cons. In the end, I learned a lot of things that led to a successful implementation for my project.
+
+The last challenge I encontered was facing inevitable bugs and errors in my code.
 
 # FUTURE DIRECTION
 In the future, I would like to add more STEM subjects to Landmark, encouraging active participation with fun and collaborative features. It will connect learning to real-life applications.
