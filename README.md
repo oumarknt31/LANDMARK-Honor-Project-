@@ -40,5 +40,17 @@ In addition to tackling the complexities of learning Qt and converting C++ code,
 
 The last challenge I encontered was facing inevitable bugs and errors in my code.
 
+# ACCOMPLISHMENT
+
+Learning the Qt Framework: I successfully learned and implemented the Qt framework, a useful tool for developing GUI application.
+
+Developing a Well-Functioning Application: I built a fully functional application with intuitive features like learning materials and interactive quizzes. For me that's a very good way to start.
+
+Expanded Knowledge: I gained valuable knowledge about STEM subjects, including computer science and mathematics, through the research and development process.
+
+Developed Problem-Solving Skills: I was able to identified and solve technical challenges, which may demonstrate my ability to solve complex problems.
+
+Perseverance and Resilience: I persevered through challenges and setbacks, because it was very difficult at the beginning of my project especially the way Qt framework works. Therefore, I develop my determination and ability to overcome obstacles.
+
 # FUTURE DIRECTION
-In the future, I would like to add more STEM subjects to Landmark, encouraging active participation with fun and collaborative features. It will connect learning to real-life applications.
+In the future, I would like to add more STEM subjects to Landmark, encouraging active participation with fun and collaborative features. It will connect learning to real-life applications. And I hope one day, my application will be implemented to benefits STEM major students and anyone willing to learn.
