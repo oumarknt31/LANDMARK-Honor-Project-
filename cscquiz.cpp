@@ -17,5 +17,4 @@ void CscQuiz::setQuestionContainer(const QVector<QuestionQuiz>& questions) {
 
 void CscQuiz::showCurrentQuest(int index) {
     // Implement this function to display the current question
-    // use questionContainer.at(index) to get the current question
 }
