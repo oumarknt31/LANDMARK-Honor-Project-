@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuizDialog</class>
+ <widget class="QDialog" name="QuizDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>951</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>941</width>
+     <height>521</height>
+    </size>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QLabel" name="QuizImage">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>951</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IMAGE</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>260</y>
+      <width>781</width>
+      <height>196</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="CSC_learn_btn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>85</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noteworthy</family>
+         <pointsize>25</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/img/background3_Pic.jpeg);
+color: purple;
+border-width: 1px;
+border-color: purple;
+border-style: outset;
+border-radius: 10px;</string>
+       </property>
+       <property name="text">
+        <string>COMPUTER SCIENCE</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="MATHS_quiz_btn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>85</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noteworthy</family>
+         <pointsize>25</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/img/background3_Pic.jpeg);
+color: purple;
+border-width: 1px;
+border-color: purple;
+border-style: outset;
+border-radius: 10px;</string>
+       </property>
+       <property name="text">
+        <string>MATHS</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="GoBack">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(:/img/blackBacground.jpeg);
+color: rgb(255, 147, 0);
+font: 900 17pt &quot;Avenir&quot;;
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

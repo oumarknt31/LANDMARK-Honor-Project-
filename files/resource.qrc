@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/mainPic.jpeg</file>
+        <file>img/quizPic.jpeg</file>
+        <file>img/learn_Pic.jpeg</file>
+        <file>img/background2.jpeg</file>
+        <file>img/background3_Pic.jpeg</file>
+        <file>img/blackBacground.jpeg</file>
+        <file>img/logo.jpg</file>
+        <file>img/ReadingPic.jpeg</file>
+        <file>txt/Pointers in c++.txt</file>
+        <file>img/DefaultBackgrd.jpg</file>
+        <file>txt/Exception_txt.txt</file>
+        <file>img/CalculusI Quiz.jpeg</file>
+        <file>img/CalculusII Quiz.jpeg</file>
+        <file>img/ComputerSc quiz.jpeg</file>
+        <file>img/Csc111Quiz.jpeg</file>
+        <file>img/Csc211Quiz.jpeg</file>
+        <file>img/MathsQuiz.jpeg</file>
+        <file>img/Physics Quiz.jpeg</file>
+        <file>img/Quiz Background.jpeg</file>
+        <file>img/CalculusI.jpeg</file>
+        <file>img/CalculusII.jpeg</file>
+        <file>img/CSC111.jpeg</file>
+        <file>img/CSC211.jpeg</file>
+        <file>img/LearnCSC.jpeg</file>
+        <file>img/LearnMaths.jpeg</file>
+        <file>txt/Application of derivatives.txt</file>
+        <file>txt/Application of integrals.txt</file>
+        <file>txt/Basics Derivatives.txt</file>
+        <file>txt/Intro to integration.txt</file>
+        <file>txt/Limits .txt</file>
+        <file>txt/More Derivatives.txt</file>
+        <file>txt/Series and sequencies.txt</file>
+        <file>txt/Techniques of integration.txt</file>
+        <file>txt/Class in c++.txt</file>
+        <file>txt/FIle InOut.txt</file>
+        <file>txt/Function in c++.txt</file>
+        <file>txt/If-else statement.txt</file>
+        <file>txt/Inheritance in c++.txt</file>
+        <file>txt/Loop in c++.txt</file>
+        <file>txt/Recursion in c++.txt</file>
+        <file>txt/Structures in C++.txt</file>
+        <file>txt/Template in c++.txt</file>
+        <file>txt/About Landmark.txt</file>
+        <file>img/AboutLandmark.jpeg</file>
+    </qresource>
+</RCC>
