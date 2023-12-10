@@ -13,6 +13,5 @@ void mathsquiz::setQuestionContainer(const QVector<QuestionQuiz>& questions) {
 }
 
 void mathsquiz::showCurrentQuest(int index) {
-    // Implement this function to display the current question
-    // use questionContainer.at(index) to get the current question
+    // I might need this function
 }
