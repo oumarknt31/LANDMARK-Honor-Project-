@@ -14,7 +14,7 @@ AboutLandmarkDialog::AboutLandmarkDialog(QWidget *parent) :
 
     QFile file(":/txt/About Landmark.txt");
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        // File opened successfully, proceed with reading
+        // if File opened successfully, proceed with reading
         QTextStream in(&file);
         QString content = in.readAll();
         file.close();
@@ -25,7 +25,6 @@ AboutLandmarkDialog::AboutLandmarkDialog(QWidget *parent) :
     } else {
         // Handle the case when the file couldn't be opened
         qDebug() << "Error opening file:" << file.errorString();
-        // You might want to set some default text or handle the error in an appropriate way
         ui->AboutLM_Txt->setPlainText("Error loading content. Please check the resource file.");
         ui->AboutLM_Txt->setStyleSheet("background: transparent;");
     }
