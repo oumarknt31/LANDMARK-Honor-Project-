@@ -1,0 +1,42 @@
+BASICS DERIVATIVES
+
+In mathematics, the derivative shows the sensitivity of change of a function's output with respect to the input. Derivatives are a fundamental tool of calculus. For example, the derivative of the position of a moving object with respect to time is the object's velocity: this measures how quickly the position of the object changes when time advances.
+
+
+The derivative of a function of a single variable at a chosen input value, when it exists, is the slope of the tangent line to the graph of the function at that point. The tangent line is the best linear approximation of the function near that input value. For this reason, the derivative is often described as the "instantaneous rate of change", the ratio of the instantaneous change in the dependent variable to that of the independent variable.
+
+
+Derivatives can be generalized to functions of several real variables. In this generalization, the derivative is reinterpreted as a linear transformation whose graph is (after an appropriate translation) the best linear approximation to the graph of the original function. The Jacobian matrix is the matrix that represents this linear transformation with respect to the basis given by the choice of independent and dependent variables. It can be calculated in terms of the partial derivatives with respect to the independent variables. For a real-valued function of several variables, the Jacobian matrix reduces to the gradient vector.
+
+
+The process of finding a derivative is called differentiation. The reverse process is called antidifferentiation. The fundamental theorem of calculus relates antidifferentiation with integration. Differentiation and integration constitute the two fundamental operations in single-variable calculus.
+
+
+
+Definition
+
+A function of a real variable f(x) is differentiable at a point a of its domain, if its domain contains an open interval I containing a, and the limit exists. This means that, for every positive real number  (even very small), there exists a positive real number  such that, for every h such that  and  then  is defined, and where the vertical bars denote the absolute value. If the function f is differentiable at a, that is if the limit L exists, then this limit is called the derivative of f at a, and denoted  (read as "f prime of a") or  (read as "the derivative of f with respect to x at a" or "df by (or over) dx at a"); see § Notation (details), below.
+
+
+
+
+Continuity and differentiability
+
+If f is differentiable at a, then f must also be continuous at a. As an example, choose a point a and let f be the step function that returns the value 1 for all x less than a, and returns a different value 10 for all x greater than or equal to a. f cannot have a derivative at a. If h is negative, then  is on the low part of the step, so the secant line from a to  is very steep; as h tends to zero, the slope tends to infinity. If h is positive, then  is on the high part of the step, so the secant line from a to  has slope zero. Consequently, the secant lines do not approach any single slope, so the limit of the difference quotient does not exist.
+
+
+
+The absolute value function is continuous but fails to be differentiable at x = 0 since the tangent slopes do not approach the same value from the left as they do from the right.
+
+
+
+However, even if a function is continuous at a point, it may not be differentiable there. For example, the absolute value function given by  is continuous at , but it is not differentiable there. If h is positive, then the slope of the secant line from 0 to h is one; if h is negative, then the slope of the secant line from 0 to h is -1. This can be seen graphically as a "kink" or a "cusp" in the graph at . Even a function with a smooth graph is not differentiable at a point where its tangent is vertical: For instance, the function given by  is not differentiable at .
+
+
+
+
+In summary, a function that has a derivative is continuous, but there are continuous functions that do not have a derivative.
+
+
+Most functions that occur in practice have derivatives at all points or at almost every point. Early in the history of calculus, many mathematicians assumed that a continuous function was differentiable at most points. Under mild conditions (for example, if the function is a monotone or a Lipschitz function), this is true. However, in 1872, Weierstrass found the first example of a function that is continuous everywhere but differentiable nowhere. This example is now known as the Weierstrass function. In 1931, Stefan Banach proved that the set of functions that have a derivative at some point is a meager set in the space of all continuous functions Informally, this means that hardly any random continuous functions have a derivative at even one point.
+

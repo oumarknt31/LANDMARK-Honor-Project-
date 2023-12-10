@@ -1,0 +1,42 @@
+
+MORE DERIVATIVES
+
+
+Let f be a function that has a derivative at every point in its domain. We can then define a function that maps every point x to the value of the derivative of f at x. This function is written f′ and is called the derivative function or the derivative of f.
+
+
+Sometimes f has a derivative at most, but not all, points of its domain. The function whose value at a equals f′(a) whenever f′(a) is defined and elsewhere is undefined is also called the derivative of f. It is still a function, but its domain may be smaller than the domain of f.
+
+Using this idea, differentiation becomes a function of functions: The derivative is an operator whose domain is the set of all functions that have derivatives at every point of their domain and whose range is a set of functions. If we denote this operator by D, then D(f) is the function f′. 
+
+Since D(f) is a function, it can be evaluated at a point a. By the definition of the derivative function, D(f)(a) = f′(a).
+
+
+For comparison, consider the doubling function given by f(x) = 2x; f is a real-valued function of a real number, meaning that it takes numbers as inputs and has numbers as outputs:
+
+The operator D, however, is not defined on individual numbers. It is only defined on functions:
+
+Because the output of D is a function, the output of D can be evaluated at a point. For instance, when D is applied to the square function, x ↦ x2, D outputs the doubling function x ↦ 2x, which we named f(x). This output function can then be evaluated to get f(1) = 2, f(2) = 4, and so on.
+Higher derivatives
+
+Let f be a differentiable function, and let f ′ be its derivative. The derivative of f ′ (if it has one) is written f ′′ and is called the second derivative of f. Similarly, the derivative of the second derivative, if it exists, is written f ′′′ and is called the third derivative of f. Continuing this process, one can define, if it exists, the nth derivative as the derivative of the (n−1)th derivative. These repeated derivatives are called higher-order derivatives. The nth derivative is also called the derivative of order n (or nth-order derivative: first-, second-, third-order derivative, etc.) and denoted f (n).
+
+If x(t) represents the position of an object at time t, then the higher-order derivatives of x have specific interpretations in physics. The first derivative of x is the object's velocity. The second derivative of x is the acceleration. The third derivative of x is the jerk. And finally, the fourth through sixth derivatives of x are snap, crackle, and pop.
+A function f need not have a derivative (for example, if it is not continuous). Similarly, even if f does have a derivative, it may not have a second derivative. For example, let
+
+
+
+Calculation shows that f is a differentiable function whose derivative at  is given by
+
+f'(x) is twice the absolute value function at , and it does not have a derivative at zero. Similar examples show that a function can have a kth derivative for each non-negative integer k but not a (k + 1)th derivative. A function that has k successive derivatives is called k times differentiable. If in addition the kth derivative is continuous, then the function is said to be of differentiability class Ck. (This is a stronger condition than having k derivatives, as shown by the second example of Smoothness § Examples.) A function that has infinitely many derivatives is called infinitely differentiable or smooth.
+
+On the real line, every polynomial function is infinitely differentiable. By standard differentiation rules, if a polynomial of degree n is differentiated n times, then it becomes a constant function. All of its subsequent derivatives are identically zero. In particular, they exist, so polynomials are smooth functions.
+
+
+The derivatives of a function f at a point x provide polynomial approximations to that function near x. For example, if f is twice differentiable, then in the sense that If f is infinitely differentiable, then this is the beginning of the Taylor series for f evaluated at x + h around x.
+
+
+
+Inflection point
+
+A point where the second derivative of a function changes sign is called an inflection point. At an inflection point, the second derivative may be zero, as in the case of the inflection point x = 0 of the function given by , or it may fail to exist, as in the case of the inflection point x = 0 of the function given by . At an inflection point, a function switches from being a convex function to being a concave function or vice versa.

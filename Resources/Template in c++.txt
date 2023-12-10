@@ -1,0 +1,135 @@
+
+C++ Class Templates
+
+
+Templates are powerful features of C++ which allows us to write generic programs. There are two ways we can implement templates:
+
+Function Templates
+Class Templates
+
+Similar to function templates, we can use class templates to create a single class to work with different data types.
+Class templates come in handy as they can make our code shorter and more manageable.
+
+
+Class Template Declaration
+
+A class template starts with the keyword template followed by template parameter(s) inside <> which is followed by the class declaration.
+template <class T>
+class className {
+  private:
+    T var;
+    ... .. ...
+  public:
+    T functionName(T arg);
+    ... .. ...
+};
+In the above declaration, T is the template argument which is a placeholder for the data type used, and class is a keyword.
+Inside the class body, a member variable var and a member function functionName() are both of type T.
+
+Creating a Class Template Object
+
+Once we've declared and defined a class template, we can create its objects in other classes or functions (such as the main() function) with the following syntax
+className<dataType> classObject;
+For example,
+className<int> classObject;
+className<float> classObject;
+className<string> classObject;
+
+Example 1: C++ Class Templates
+
+// C++ program to demonstrate the use of class templates
+
+#include <iostream>
+using namespace std;
+
+// Class template
+template <class T>
+class Number {
+   private:
+    // Variable of type T
+    T num;
+
+   public:
+    Number(T n) : num(n) {}   // constructor
+
+    T getNum() {
+        return num;
+    }
+};
+
+int main() {
+
+    // create object with int type
+    Number<int> numberInt(7);
+
+    // create object with double type
+    Number<double> numberDouble(7.7);
+
+    cout << "int Number = " << numberInt.getNum() << endl;
+    cout << "double Number = " << numberDouble.getNum() << endl;
+
+    return 0;
+}
+
+
+Output
+int Number = 7
+double Number = 7.7
+In this program. we have created a class template Number with the code
+template <class T>
+class Number {
+   private:
+    T num;
+
+   public:
+    Number(T n) : num(n) {}
+    T getNum() { return num; }
+};
+
+Notice that the variable num, the constructor argument n, and the function getNum() are of type T, or have a return type T. That means that they can be of any type.
+
+In main(), we have implemented the class template by creating its objects
+Number<int> numberInt(7);
+Number<double> numberDouble(7.7);
+Notice the codes Number<int> and Number<double> in the code above.
+This creates a class definition each for int and float, which are then used accordingly.
+It is a good practice to specify the type when declaring objects of class templates. Otherwise, some compilers might throw an error.
+
+//Error
+Number numberInt(7);
+Number numberDouble(7.7);
+
+Defining a Class Member Outside the Class Template
+Suppose we need to define a function outside of the class template. We can do this with the following code:
+template <class T>
+class ClassName {
+    ... .. ...
+    // Function prototype
+    returnType functionName();
+};
+
+// Function definition
+template <class T>
+returnType ClassName<T>::functionName() {
+    // code
+}
+
+Notice that the code template <class T> is repeated while defining the function outside of the class. This is necessary and is part of the syntax.
+
+If we look at the code in Example 1, we have a function getNum() that is defined inside the class template Number.
+
+We can define getNum() outside of Number with the following code:
+
+
+template <class T>
+class Number {
+    ... .. ...
+    // Function prototype
+    T getnum();
+};
+
+// Function definition
+template <class T>
+T Number<T>::getNum() {
+    return num;
+}

@@ -1,0 +1,134 @@
+IF-ELSE STATEMENT
+
+
+C++ if, if...else and Nested if...else
+
+In computer programming, we use the if...else statement to run one block of code under certain conditions and another block of code under different conditions.
+For example, assigning grades (A, B, C) based on marks obtained by a student.
+if the percentage is above 90, assign grade A
+if the percentage is above 75, assign grade B
+if the percentage is above 65, assign grade C
+
+There are three forms of if...else statements in C++.
+if statement
+if...else statement
+if...else if...else statement
+
+
+
+C++ if Statement
+
+The syntax of the if statement is:
+if (condition) {
+  // body of if statement
+}
+The if statement evaluates the condition inside the parentheses ( ).
+If the condition evaluates to true, the code inside the body of if is executed.
+If the condition evaluates to false, the code inside the body of if is skipped.
+Note: The code inside { } is the body of the if statement.
+
+Example 1: C++ if Statement
+
+// Program to print positive number entered by the user
+// If the user enters a negative number, it is skipped
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int number;
+
+  cout << "Enter an integer: ";
+  cin >> number;
+
+  // checks if the number is positive
+  if (number > 0) {
+    cout << "You entered a positive integer: " << number << endl;
+  }
+
+  cout << "This statement is always executed.";
+
+  return 0;
+}
+
+Output 1
+Enter an integer: 5
+You entered a positive number: 5
+This statement is always executed.
+When the user enters 5, the condition number > 0 is evaluated to true and the statement inside the body of if is executed.
+Output 2
+Enter a number: -5
+This statement is always executed.
+When the user enters -5, the condition number > 0 is evaluated to false and the statement inside the body of if is not executed.
+C++ if...else
+The if statement can have an optional else clause. Its syntax is:
+if (condition) {
+  // block of code if condition is true
+}
+else {
+  // block of code if condition is false
+}
+The if..else statement evaluates the condition inside the parenthesis.
+Example 2: C++ if...else Statement
+
+// Program to check whether an integer is positive or negative
+// This program considers 0 as a positive number
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int number;
+
+  cout << "Enter an integer: ";
+  cin >> number;
+
+  if (number >= 0) {
+    cout << "You entered a positive integer: " << number << endl;
+  }
+  else {
+    cout << "You entered a negative integer: " << number << endl;
+  }
+
+  cout << "This line is always printed.";
+
+  return 0;
+}
+
+
+Output 1
+Enter an integer: 4
+You entered a positive integer: 4.
+This line is always printed.
+
+
+In the above program, we have the condition number >= 0. If we enter the number greater or equal to 0, then the condition evaluates true.
+Here, we enter 4. So, the condition is true. Hence, the statement inside the body of if is executed.
+Output 2
+Enter an integer: -4
+You entered a negative integer: -4.
+This line is always printed.
+Here, we enter -4. So, the condition is false. Hence, the statement inside the body of else is executed.
+
+
+
+C++ if...else...else if statement
+
+The if...else statement is used to execute a block of code among two alternatives. However, if we need to make a choice between more than two alternatives, we use the if...else if...else statement.
+The syntax of the if...else if...else statement is:
+if (condition1) {
+  // code block 1
+}
+else if (condition2){
+  // code block 2
+}
+else {
+  // code block 3
+}
+Here,
+If condition1 evaluates to true, the code block 1 is executed.
+If condition1 evaluates to false, then condition2 is evaluated.
+If condition2 is true, the code block 2 is executed.
+If condition2 is false, the code block 3 is executed.

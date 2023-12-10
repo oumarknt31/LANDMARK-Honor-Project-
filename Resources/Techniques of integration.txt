@@ -1,0 +1,66 @@
+
+TECHNIQUES OF INTEGRATION
+
+There are a fair number of them and some will be easier than others. The point of the chapter is to teach you these new techniques and so this chapter assumes that you’ve got a fairly good working knowledge of basic integration as well as substitutions with integrals. In fact, most integrals involving “simple” substitutions will not have any of the substitution work shown. It is going to be assumed that you can verify the substitution portion of the integration yourself.
+
+
+Also, most of the integrals done in this chapter will be indefinite integrals. It is also assumed that once you can do the indefinite integrals you can also do the definite integrals and so to conserve space we concentrate mostly on indefinite integrals. There is one exception to this and that is the Trig Substitution section and in this case there are some subtleties involved with definite integrals that we’re going to have to watch out for. Outside of that however, most sections will have at most one definite integral example and some sections will not have any definite integral examples.
+Here is a list of topics that are covered in this chapter.
+
+
+Integration by Parts 
+
+– In this section we will be looking at Integration by Parts. Of all the techniques we’ll be looking at in this class this is the technique that students are most likely to run into down the road in other classes. We also give a derivation of the integration by parts formula.
+
+
+
+Integrals Involving Trig Functions
+
+ – In this section we look at integrals that involve trig functions. In particular we concentrate integrating products of sines and cosines as well as products of secants and tangents. We will also briefly look at how to modify the work for products of these trig functions for some quotients of trig functions.
+
+
+Trig Substitutions 
+
+– In this section we will look at integrals (both indefinite and definite) that require the use of a substitutions involving trig functions and how they can be used to simplify certain integrals.
+
+
+
+Partial Fractions
+
+ – In this section we will use partial fractions to rewrite integrands into a form that will allow us to do integrals involving some rational functions.
+
+
+
+Integrals Involving Roots 
+
+– In this section we will take a look at a substitution that can, on occasion, be used with integrals involving roots.
+
+
+
+Integrals Involving Quadratics 
+
+– In this section we are going to look at some integrals that involve quadratics for which the previous techniques won’t work right away. In some cases, manipulation of the quadratic needs to be done before we can do the integral. We will see several cases where this is needed in this section.
+
+
+
+Integration Strategy
+ 
+– In this section we give a general set of guidelines for determining how to evaluate an integral. The guidelines give here involve a mix of both Calculus I and Calculus II techniques to be as general as possible. Also note that there really isn’t one set of guidelines that will always work and so you always need to be flexible in following this set of guidelines.
+
+
+Improper Integrals 
+
+– In this section we will look at integrals with infinite intervals of integration and integrals with discontinuous integrands in this section. Collectively, they are called improper integrals and as we will see they may or may not have a finite (i.e. not infinite) value. 
+
+Determining if they have finite values will, in fact, be one of the major topics of this section.
+
+
+
+Comparison Test for Improper Integrals
+
+– It will not always be possible to evaluate improper integrals and yet we still need to determine if they converge or diverge (i.e. if they have a finite value or not). So, in this section we will use the Comparison Test to determine if improper integrals converge or diverge.
+
+
+Approximating Definite Integrals 
+
+– In this section we will look at several fairly simple methods of approximating the value of a definite integral. It is not possible to evaluate every definite integral (i.e. because it is not possible to do the indefinite integral) and yet we may need to know the value of the definite integral anyway. These methods allow us to at least get an approximate value which may be enough in a lot of cases.

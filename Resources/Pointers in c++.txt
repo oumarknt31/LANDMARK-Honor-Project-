@@ -1,0 +1,65 @@
+POINTERS IN C++
+
+WHY DO YOU NEEE POINTERS IN C++?
+
+Pointers provide many capabilities to the C++ language. It offers features like referring to the same space in memory from over one memory location, i.e. you can change one location in the program, and it can reflect those changes in other parts of the program. Because of pointers, it is possible to have a more flexible memory allocation and deallocation. And you also use it in polymorphism and function pointers.
+Now, understand what pointers in C++ are.
+
+
+
+
+
+WHAT IS A POINTER IN C++?
+
+In C++, every variable has its unique address or location in the computer's memory, and this special address is called memory address. You can define a pointer as the variable that holds the memory address of some other variable. It allows the developer to deal with the memory.
+
+
+
+
+DECLARATION AND INITIALIZATION OF A POINTER
+
+-Declaration
+The basic syntax for the pointer in C++ is:   
+data_type *pointer_name;   
+Here, the data type can be int, char, double, etc. The pointer name can be anything with the * sign. The * operator declares the variable is a pointer.
+
+-Initialization
+int a = 30;
+int *ptr = &a;
+
+
+
+
+POINTER ARITHMETIC
+
+There are some arithmetic operations that you can perform on a pointer in C++ because the pointer stores an address which is a numeric value. And the arithmetic operators are:
+
+*Increment Operator (++)
+*Decrement Operator (--)
+*Addition (+)
+*Subtraction (-)
+
+Increment Operator(++): When you increment a pointer, the size of its type increments its address. For example, for incrementing an integer pointer whose address is 450, after increment, it will be 454 because the int type size is 4 bytes.
+
+Decrement Operator(--): When you decrement the pointer, its address will be decremented by the size of its type. 
+
+Both increment and decrement operations on a pointer are used to traverse through the array because, on increment, the pointer will point to the following memory address of the next element. On decrement, it will point to the previous memory address.
+
+Addition(+): When you perform an addition operation to the pointer ptr by 1, i.e. ptr+1, then it will point to the next memory address. Similarly, if you add 3 to ptr, then it will point to the address that is three times the size of the type of pointer, 3* (size of) type.
+
+Subtraction(-): When you subtract on a pointer, it will decrease the address by n* (size of) type.
+
+Now you will learn how to use the C++ pointer to access elements of the array.
+
+
+
+USING POINTERS TO ACCESS ELEMENTS OF THE ARRAY
+
+In an array, the name is referred to as the address of array inside the memory and that is why while assigning the address of an array to a pointer we don’t use ampersand sign &, because the array name denotes the address of the first element in the array.
+
+
+		
+CONCLUSION
+
+After reading this tutorial on C++ Pointers, you would have understood why you use pointers in C++, what is a pointer in C++, its declaration and initialization, and about the dereference operator in C++. You also learned about pointer arithmetic and how you can use pointers to access elements of the array with the help of some examples.
+

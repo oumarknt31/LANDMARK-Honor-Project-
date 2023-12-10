@@ -1,0 +1,82 @@
+
+APPLICATION OF INTEGRALS
+
+There are many very important applications to derivatives.
+The two main applications that we’ll be looking at in this chapter are using derivatives to determine information about graphs of functions and optimization problems. These will not be the only applications however. We will be revisiting limits and taking a look at an application of derivatives that will allow us to compute limits that we haven’t been able to compute previously. We will also see how derivatives can be used to estimate solutions to equations.
+
+
+Here is a listing of the topics in this section.
+Rates of Change 
+
+– In this section we review the main application/interpretation of derivatives from the previous chapter (i.e. rates of change) that we will be using in many of the applications in this chapter.
+
+
+Critical Points 
+
+– In this section we give the definition of critical points. Critical points will show up in most of the sections in this chapter, so it will be important to understand them and how to find them. We will work a number of examples illustrating how to find them for a wide variety of functions.
+
+
+Minimum and Maximum Values 
+
+– In this section we define absolute (or global) minimum and maximum values of a function and relative (or local) minimum and maximum values of a function. It is important to understand the difference between the two types of minimum/maximum (collectively called extrema) values for many of the applications in this chapter and so we use a variety of examples to help with this. We also give the Extreme Value Theorem and Fermat's Theorem, both of which are very important in the many of the applications we'll see in this chapter.
+
+Finding Absolute Extrema 
+
+– In this section we discuss how to find the absolute (or global) minimum and maximum values of a function. In other words, we will be finding the largest and smallest values that a function will have.
+
+
+The Shape of a Graph, Part I 
+
+– In this section we will discuss what the first derivative of a function can tell us about the graph of a function. The first derivative will allow us to identify the relative (or local) minimum and maximum values of a function and where a function will be increasing and decreasing. We will also give the First Derivative test which will allow us to classify critical points as relative minimums, relative maximums or neither a minimum or a maximum.
+
+
+The Shape of a Graph, Part II 
+
+– In this section we will discuss what the second derivative of a function can tell us about the graph of a function. The second derivative will allow us to determine where the graph of a function is concave up and concave down. The second derivative will also allow us to identify any inflection points (i.e. where concavity changes) that a function may have. We will also give the Second Derivative Test that will give an alternative method for identifying some critical points (but not all) as relative minimums or relative maximums.
+
+
+
+The Mean Value Theorem 
+
+– In this section we will give Rolle's Theorem and the Mean Value Theorem. With the Mean Value Theorem we will prove a couple of very nice facts, one of which will be very useful in the next chapter.
+
+
+
+Optimization Problems 
+
+– In this section we will be determining the absolute minimum and/or maximum of a function that depends on two variables given some constraint, or relationship, that the two variables must always satisfy. We will discuss several methods for determining the absolute minimum or maximum of the function. Examples in this section tend to center around geometric objects such as squares, boxes, cylinders, etc.
+
+
+
+More Optimization Problems 
+
+– In this section we will continue working optimization problems. The examples in this section tend to be a little more involved and will often involve situations that will be more easily described with a sketch as opposed to the 'simple' geometric objects we looked at in the previous section.
+
+
+
+L’Hospital’s Rule and Indeterminate Forms 
+
+– In this section we will revisit indeterminate forms and limits and take a look at L’Hospital’s Rule. L’Hospital’s Rule will allow us to evaluate some limits we were not able to previously.
+
+
+
+Linear Approximations 
+
+– In this section we discuss using the derivative to compute a linear approximation to a function. We can use the linear approximation to a function to approximate values of the function at certain points. While it might not seem like a useful thing to do with when we have the function there really are reasons that one might want to do this. We give two ways this can be useful in the examples.
+
+
+
+Differentials 
+
+– In this section we will compute the differential for a function. We will give an application of differentials in this section. However, one of the more important uses of differentials will come in the next chapter and unfortunately we will not be able to discuss it until then.
+
+
+
+Newton’s Method 
+
+– In this section we will discuss Newton's Method. Newton's Method is an application of derivatives that will allow us to approximate solutions to an equation. There are many equations that cannot be solved directly and with this method we can get approximations to the solutions to many of those equations.
+
+
+Business Applications 
+
+– In this section we will give a cursory discussion of some basic applications of derivatives to the business field. We will revisit finding the maximum and/or minimum function value and we will define the marginal cost function, the average cost, the revenue function, the marginal revenue function and the marginal profit function. Note that this section is only intended to introduce these concepts and not teach you everything about them.

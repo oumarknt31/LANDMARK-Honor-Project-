@@ -1,0 +1,96 @@
+
+SERIES AND SEQUENCIES
+
+A sequence is an arrangement of any objects or a set of numbers in a particular order followed by some rule. If a1, a2, a3, a4,……… etc. denote the terms of a sequence, then 1,2,3,4,…..denotes the position of the term.
+A sequence can be defined based on the number of terms i.e. either finite sequence or infinite sequence.
+If a1, a2, a3, a4, ……. is a sequence, then the corresponding series is given by
+Sn = a1+a2+a3 + .. + an
+Note:  The series is finite or infinite depending if the sequence is finite or infinite.
+
+Types of Sequence and Series
+Some of the most common examples of sequences are:
+
+-Arithmetic Sequences
+-Geometric Sequences
+-Harmonic Sequences
+-Fibonacci Numbers
+-Arithmetic Sequences
+
+A sequence in which every term is created by adding or subtracting a definite number to the preceding number is an arithmetic sequence.
+
+Geometric Sequences
+
+A sequence in which every term is obtained by multiplying or dividing a definite number with the preceding number is known as a geometric sequence.
+
+
+Harmonic Sequences
+
+A series of numbers is said to be in harmonic sequence if the reciprocals of all the elements of the sequence form an arithmetic sequence.
+
+
+Fibonacci Numbers
+
+Fibonacci numbers form an interesting sequence of numbers in which each element is obtained by adding two preceding elements and the sequence starts with 0 and 1. Sequence is defined as, F0 = 0 and F1 = 1 and Fn = Fn-1 + Fn-2
+
+Sequence and Series Formulas
+List of some basic formula of arithmetic progression and geometric progression are
+
+*Here, a = first term, d = common difference, r = common ratio, n = position of term, l = last term
+Difference Between Sequences and Series
+Let us find out how a sequence can be differentiated with series.
+
+
+
+Sequence and Series Examples
+
+Question 1: If 4,7,10,13,16,19,22……is a sequence, Find: a-Common difference; b-nth term; c-21st term
+
+Solution: 
+Given sequence is, 4,7,10,13,16,19,22……
+
+a) The common difference = 7 – 4 = 3
+
+b) The nth term of the arithmetic sequence is denoted by the term Tn and is given by Tn = a + (n-1)d, where “a” is the first term and d is the common difference. 
+Tn = 4 + (n – 1)3 = 4 + 3n – 3 = 3n + 1 c) 21st term as:  T21 = 4 + (21-1)3 = 4+60 = 64.
+
+
+Question 2: Consider the sequence 1, 4, 16, 64, 256, 1024….. Find the common ratio and 9th term.
+
+Solution: 
+The common ratio (r)  = 4/1 = 4
+The preceding term is multiplied by 4 to obtain the next term.
+The nth term of the geometric sequence is denoted by the term Tn and is given by Tn = ar(n-1) where a is the first term and r is the common ratio.
+Here a = 1, r = 4 and n = 9
+
+So, 9th term is can be calculated as T9 = 1* (4)(9-1)= 48 = 65536.
+Learning about mathematical concepts can be so much fun. Download BYJU’S – The Learning App and discover innovative ways to learn Math.
+
+
+What does a Sequence and a Series Mean?
+A sequence is defined as an arrangement of numbers in a particular order. On the other hand, a series is defined as the sum of the elements of a sequence.
+
+What are Some of the Common Types of Sequences?
+A few popular sequences in maths are:
+Arithmetic Sequences
+Geometric Sequences
+Harmonic Sequences
+Fibonacci Numbers
+
+What are Finite and Infinite Sequences and Series?
+Sequences: A finite sequence is a sequence that contains the last term such as a1, a2, a3, a4, a5, a6……an. On the other hand, an infinite sequence is never-ending i.e. a1, a2, a3, a4, a5, a6……an…..
+Series: In a finite series, a finite number of terms are written like a1 + a2 + a3 + a4 + a5 + a6 + ……an. In case of an infinite series, the number of elements are not finite i.e. a1 + a2 + a3 + a4 + a5 + a6 + ……an +…..
+
+Give an example of sequence and series.
+An example of sequence: 2, 4, 6, 8, … An example of a series: 2 + 4 + 6 + 8 + …
+
+What is the formula to find the common difference in an arithmetic sequence?
+The formula to determine the common difference in an arithmetic sequence is: Common difference = Successive term – Preceding term.
+
+How to represent the arithmetic sequence?
+If “a” is the first term and “d” is the common difference of an arithmetic sequence, then it is represented by a, a+d, a+2d, a+3d, …
+
+How to represent the geometric sequence?
+If “a” is the first term and “r” is the common ratio of a geometric sequence, then the geometric sequence is represented by a, ar, ar2, ar3, …., arn-1, ..
+
+How to represent arithmetic and geometric series?
+The arithmetic series is represented by a + (a+d) + (a+2d) + (a+3d) + … The geometric series is represented by a + ar + ar2 + ar3 + ….+ arn-1+ ..

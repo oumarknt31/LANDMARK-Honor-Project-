@@ -1,0 +1,102 @@
+C++ Loop
+
+In computer programming, loops are used to repeat a block of code.
+For example, let's say we want to show a message 100 times. Then instead of writing the print statement 100 times, we can use a loop.
+That was just a simple example; we can achieve much more efficiency and sophistication in our programs by making effective use of loops.
+There are 3 types of loops in C++.
+for loop
+while loop
+do...while loop
+
+
+C++ for loop
+The syntax of for-loop is:
+for (initialization; condition; update) {
+    // body of-loop 
+}
+
+Here,
+initialization - initializes variables and is executed only once
+condition - if true, the body of for loop is executed if false, the for loop is terminated
+update - updates the value of initialized variables and again checks the condition
+Example 1: Printing Numbers From 1 to 5
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+        for (int i = 1; i <= 5; ++i) {
+        cout << i << " ";
+    }
+    return 0;
+}
+
+
+C++ while Loop
+The syntax of the while loop is:
+while (condition) {
+    // body of the loop
+}
+
+Here, A while loop evaluates the condition
+If the condition evaluates to true, the code inside the while loop is executed.
+The condition is evaluated again.
+This process continues until the condition is false.
+When the condition evaluates to false, the loop terminates.
+
+Example 1: Display Numbers from 1 to 5
+
+// C++ Program to print numbers from 1 to 5
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i = 1; 
+
+    // while loop from 1 to 5
+    while (i <= 5) {
+        cout << i << " ";
+        ++i;
+    }
+    
+    return 0;
+}
+
+
+C++ do...while Loop
+The do...while loop is a variant of the while loop with one important difference: the body of do...while loop is executed once before the condition is checked.
+Its syntax is:
+do {
+   // body of loop;
+}
+while (condition);
+
+Here, The body of the loop is executed at first. Then the condition is evaluated.
+If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+The condition is evaluated once again.
+If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+This process continues until the condition evaluates to false. Then the loop stops.
+
+Example 3: Display Numbers from 1 to 5
+
+// C++ Program to print numbers from 1 to 5
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i = 1; 
+
+    // do...while loop from 1 to 5
+    do {
+        cout << i << " ";
+        ++i;
+    }
+    while (i <= 5);
+    
+    return 0;
+}
