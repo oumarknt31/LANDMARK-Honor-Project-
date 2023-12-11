@@ -1,7 +1,7 @@
 # LANDMARK
 
 
-Video link https://youtu.be/WdC70GUIlUk?si=pWo_Xtzu_8rRGYra
+Video link https: https://youtu.be/O-4SlUftTys?si=qHD6-i7VkHtSLZY4
         website link https://sites.google.com/view/landmarkhononrproj/menu
 
 # INSPIRATION BEHIND LANDMARK
